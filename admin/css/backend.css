@@ -1,0 +1,218 @@
+:root{
+  --main--color:#e6bb62;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Start Style for custom css */
+a{
+  text-decoration: none;
+  color: #4a69bd;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #1b9cfc;
+  color: #fff;
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #25ccf7;
+}
+
+.btn-secondary {
+  background-color: #55e6c1;
+  color: #000;
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background-color: #58b19f;
+}
+
+.btn-danger {
+  background-color: #cf6a87;
+  color: #fff;
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #c44569;
+}
+
+.success-msg {
+  color: #fff;
+  background-color: #5cb85c;
+  width: 100%;
+  height: 50px;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.error-msg,
+.error-msg-delete{
+  color: #fff;
+  background-color: #f32013;
+  width: 100%;
+  height: 50px;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+/*  End Style for custom css*/
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clear-fix {
+  float: none;
+  clear: both;
+}
+
+/* style for menu */
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+}
+
+.menu ul li a {
+  color: #4a69bd;
+}
+
+.menu ul li a:hover {
+  color: #e55039;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+/* style for menu */
+
+/* Style for main content  */
+.main-content {
+  margin: 2% 0;
+  background-color: #eeee;
+}
+
+.main-content .wrapper .col-4 {
+  background-color: #fff;
+  width: 19%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+/* Style for main content  */
+
+/* style for manage admin page  */
+
+.table-full {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table-add{
+    width: 50%;
+    padding: 1%;
+}
+.table-add tr td{
+    padding: 2%;
+}
+.table-full tr th {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 2%;
+  text-align: left;
+}
+
+.table-full tr td {
+  padding: 2%;
+  text-align: left;
+}
+
+/* style for Login admin Page */
+.login{
+  background-color:#ccc;
+  width:50%;
+  height: 400px;
+  border:1px solid #000;
+  margin:10% auto;
+  padding:2%;
+}
+
+.login h6{
+  color: #000;
+  font-size: 20px;
+}
+
+.login input{
+  border: none;
+  width:100%;
+  height: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 18px;
+}
+
+.login p{
+  padding-top: 200px;
+}
+
+/* style for footer */
+.footer {
+  background-color: #52525261;
+  color: #fff;
+}
+/* style for footer */

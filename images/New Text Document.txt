@@ -1,0 +1,6 @@
+Dimensions Of Category Image
+Width 400 x Height 500 
+
+
+Dimensions Of Landing-Page
+600 x 600
